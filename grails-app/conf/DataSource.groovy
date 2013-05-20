@@ -76,7 +76,7 @@ grails {
         // location = "data/neo4j"
          params = [
                  'ha.server_id': 1,
-                 'ha.initial_hosts': '127.0.0.1:5001',
+                 'ha.initial_hosts': '127.0.0.1:5001,127.0.0.1:5002,127.0.0.1:5003',
                  'ha.cluster_server': '127.0.0.1:5001'
                  //    ha.coordinators = " localhost:2181,localhost:2182,localhost:2183"
          ]
